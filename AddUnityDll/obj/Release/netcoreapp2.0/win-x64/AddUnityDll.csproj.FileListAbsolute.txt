@@ -1,0 +1,13 @@
+C:\Users\VC00746\Documents\visual studio 2017\Projects\AddUnityDll\AddUnityDll\bin\Release\netcoreapp2.0\win-x64\hostpolicy.dll
+C:\Users\VC00746\Documents\visual studio 2017\Projects\AddUnityDll\AddUnityDll\bin\Release\netcoreapp2.0\win-x64\hostfxr.dll
+C:\Users\VC00746\Documents\visual studio 2017\Projects\AddUnityDll\AddUnityDll\bin\Release\netcoreapp2.0\win-x64\AddUnityDll.exe
+C:\Users\VC00746\Documents\visual studio 2017\Projects\AddUnityDll\AddUnityDll\bin\Release\netcoreapp2.0\win-x64\AddUnityDll.deps.json
+C:\Users\VC00746\Documents\visual studio 2017\Projects\AddUnityDll\AddUnityDll\bin\Release\netcoreapp2.0\win-x64\AddUnityDll.runtimeconfig.json
+C:\Users\VC00746\Documents\visual studio 2017\Projects\AddUnityDll\AddUnityDll\bin\Release\netcoreapp2.0\win-x64\AddUnityDll.runtimeconfig.dev.json
+C:\Users\VC00746\Documents\visual studio 2017\Projects\AddUnityDll\AddUnityDll\bin\Release\netcoreapp2.0\win-x64\AddUnityDll.dll
+C:\Users\VC00746\Documents\visual studio 2017\Projects\AddUnityDll\AddUnityDll\bin\Release\netcoreapp2.0\win-x64\AddUnityDll.pdb
+C:\Users\VC00746\Documents\visual studio 2017\Projects\AddUnityDll\AddUnityDll\obj\Release\netcoreapp2.0\win-x64\AddUnityDll.csproj.CoreCompileInputs.cache
+C:\Users\VC00746\Documents\visual studio 2017\Projects\AddUnityDll\AddUnityDll\obj\Release\netcoreapp2.0\win-x64\AddUnityDll.AssemblyInfoInputs.cache
+C:\Users\VC00746\Documents\visual studio 2017\Projects\AddUnityDll\AddUnityDll\obj\Release\netcoreapp2.0\win-x64\AddUnityDll.AssemblyInfo.cs
+C:\Users\VC00746\Documents\visual studio 2017\Projects\AddUnityDll\AddUnityDll\obj\Release\netcoreapp2.0\win-x64\AddUnityDll.dll
+C:\Users\VC00746\Documents\visual studio 2017\Projects\AddUnityDll\AddUnityDll\obj\Release\netcoreapp2.0\win-x64\AddUnityDll.pdb
