@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using System.Xml;
 using System.Xml.Serialization;
 
 namespace AddUnityDll
@@ -15,7 +16,16 @@ namespace AddUnityDll
                 var ns = new XmlSerializerNamespaces();
                 ns.Add(string.Empty, string.Empty);
 
-                new XmlSerializer(typeof(T)).Serialize(sw, graph, ns);
+                XmlWriterSettings settings = new XmlWriterSettings();
+                settings.OmitXmlDeclaration = true;
+                settings.Indent = true;
+                settings.OmitXmlDeclaration = true;
+                settings.NewLineOnAttributes = true;
+
+                XmlWriter writer = XmlWriter.Create(sw, settings);
+                new XmlSerializer(typeof(T)).Serialize(writer, graph, ns);
+                writer.Close();
+                sw.Close();
             }
         }
 
@@ -31,6 +41,9 @@ namespace AddUnityDll
     [XmlRoot(ElementName = "Project")]
     public class Root
     {
+        [XmlAttribute(AttributeName = "Sdk")]
+        public string Sdk;
+
         [XmlElement(ElementName = "PropertyGroup")]
         public List<PropertyGroup> PropertyGroups;
 
@@ -51,6 +64,12 @@ namespace AddUnityDll
 
         [XmlElement(ElementName = "PlatformTarget")]
         public string PlatformTarget;
+
+        [XmlElement(ElementName = "OutputType")]
+        public string OutputType;
+
+        [XmlElement(ElementName = "RuntimeIdentifiers")]
+        public string RuntimeIdentifiers;
     }
 
     public class ItemGroup
