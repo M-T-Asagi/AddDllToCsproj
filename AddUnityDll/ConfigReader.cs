@@ -16,12 +16,13 @@ namespace AddUnityDll
                 {
                     string line = sr.ReadLine();
                     string[] values = line.Split(',');
+
                     for (int i = 0; i < values.Length; i++)
                     {
                         if (values.Length < 2)
                             continue;
 
-                        dlls.Add(values[0], values[1]);
+                        dlls[values[0]] = values[1];
                     }
                 }
 
