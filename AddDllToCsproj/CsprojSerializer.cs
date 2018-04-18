@@ -5,7 +5,7 @@ using System.Text;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace AddUnityDll
+namespace AddDllToCsproj
 {
     public static class CsprojSerializer
     {
